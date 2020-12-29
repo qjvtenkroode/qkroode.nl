@@ -1,0 +1,64 @@
+baseURL: "https://qkroode.nl"
+title: Qkroode
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Qkroode
+    description: "Qkroode, space for my thoughts about technology, code, beer, fermentation and anything else that fancies my thoughts"
+    author: Quincey
+
+    #images: "<link or path of image for opengraph, twitter-cards>"
+
+    ShowReadingTime: true
+    ShowShareButtons: false
+    comments: false
+    defaultTheme: auto
+    disableThemeToggle: false
+    disableSpecial1stPost: false
+
+    assets:
+        #favicon: "<link / abs url>"
+        #favicon16x16: "<link / abs url>"
+        #favicon32x32: "<link / abs url>"
+        #apple_touch_icon: "<link / abs url>"
+        #safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Home"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/qjvtenkroode"
+
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 10
+        - identifier: projects
+          name: Projects
+          url: /categories/
+          weight: 20
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 30
