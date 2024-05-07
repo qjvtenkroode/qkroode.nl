@@ -6,8 +6,6 @@ tags: ["infrastructure-as-code", "nomad", "vault", "secrets", "cribl", "splunk",
 draft: false
 ---
 
-# Nomad - Using Vault secrets in docker logging driver
-
 ## Scheduler
 [Nomad](https://www.nomadproject.io) is an awesome scheduler for not only docker containers but also single run applications or scripts. The only downside to having containers running, being destroyed and having a new fresh one spin up whenever I want or whenever it fails a health check is that collecting logging can be a hassle.
 

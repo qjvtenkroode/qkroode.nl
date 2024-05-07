@@ -1,4 +1,4 @@
-baseURL: "https://qkroode.nl"
+baseURL: "http://qkroode.nl"
 title: Qkroode
 paginate: 5
 theme: hugo-PaperMod

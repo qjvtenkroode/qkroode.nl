@@ -6,8 +6,6 @@ tags: ["minio", "nomad", "cribl", "s3"]
 draft: false
 ---
 
-# Statistics for qkroode.nl
-
 ## Why?
 I'm always fascinated with data and now that this website is getting some more purpose for me I've decided to make use of the access and error logs to at least get a sense of the usages.
 
